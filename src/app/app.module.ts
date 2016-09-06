@@ -8,12 +8,14 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { ArticleListComponent } from './article-list/article-list.component';
 
 import { ArticleService } from './article.service';
+import { ArticleFormComponent } from './article-form/article-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloWorldComponent,
-    ArticleListComponent
+    ArticleListComponent,
+    ArticleFormComponent
   ],
   imports: [
     BrowserModule,
